@@ -649,7 +649,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   left: -260px;
   width: 260px;
   padding-top: 18px;
-  background: #4e4039;
+  background: #0f0f0f;
   transition: 0.4s;
 }
 
@@ -662,10 +662,11 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 .mobile-nav a {
   display: block;
   position: relative;
-  color: #f9d1c0;
+  color: white;
   padding: 10px 20px;
-  font-weight: 500;
+  font-weight: bold;
   transition: 0.3s;
+  text-transform: uppercase;
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
@@ -727,7 +728,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 .mobile-nav-toggle i {
-  color: #7a6960;
+  color: white;
 }
 
 .mobile-nav-overly {
@@ -737,7 +738,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   top: 0;
   left: 0;
   position: fixed;
-  background: rgba(78, 64, 57, 0.9);
+  /*! background: rgba(78, 64, 57, 0.9); */
   overflow: hidden;
   display: none;
 }
